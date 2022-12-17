@@ -22,7 +22,7 @@ const PricingCard = (props) => {
           </div>
           <div className="border-t border-slate-700"></div>
           <div className="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
-          <ul className="">
+            <ul className="flex justify-center flex-col ">
               <li>100Gb</li>
               <li>Add new users</li>
               <li>Unlimited BandWidth</li>
