@@ -7,7 +7,11 @@ const ProductModel = (props) => {
     <div className="h-screen bg-white flex justify-center items-center">
       <div className=" shadow-2xl flex flex-col md:flex-row">
         <div className="p-2">
-          <img src={headphone} alt="" className="max-w-xs" />
+          <img
+            src={headphone}
+            alt=""
+            className="max-w-xs hover:translate-y-2 duration-300"
+          />
         </div>
         <div className="flex flex-col ">
           <h3 className="p-1 bg-black text-white rounded-xl w-28 text-sm text-center">
@@ -24,7 +28,7 @@ const ProductModel = (props) => {
           </p>
           <button
             className="mt-6 block bg-blue-500 h-14 rounded-md text-white font-medium
-          text-lg"
+          text-lg hover:bg-blue-400 hover:shadow-lg transition-all duration-200"
           >
             Add to cart
           </button>
