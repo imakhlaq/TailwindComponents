@@ -34,3 +34,6 @@ const PricingCard = (props) => {
   );
 };
 export default PricingCard;
+
+// in the list section you can add stuff and svg to
+//And copy past for multiple containers
