@@ -1,4 +1,4 @@
-import image from "../img/image.jpg";
+import image from "../img/Card/image.jpg";
 const Cart = (props) => {
   return (
     <div className="h-screen bg-zinc-700 flex justify-center items-center ">
