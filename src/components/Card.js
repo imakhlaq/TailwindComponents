@@ -25,7 +25,7 @@ const Cart = (props) => {
                 placeholder:text-lg placeholder:text-white focus:outline-none"
                 placeholder="Enter Email"
               />
-              <button className="bg-lime-500 p-1 rounded-lg text-lg font-medium ">
+              <button className="bg-lime-500 p-2 rounded-lg text-md font-medium hover:bg-lime-300 transiation duration-300 ">
                 Subscribe
               </button>
             </div>
