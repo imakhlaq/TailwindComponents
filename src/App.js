@@ -2,6 +2,7 @@ import Cart from "./components/Card";
 import PricingCard from "./components/PricingCard";
 import ProductModel from "./components/ProductModel";
 import ImageGallery from "./components/ImageGallery";
+import LoginModel from "./components/LogInModel";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/* <Cart /> */}
       {/* <PricingCard /> */}
       {/* <ProductModel /> */}
-      <ImageGallery />
+      {/* <ImageGallery /> */}
+      <LoginModel />
     </div>
   );
 }
